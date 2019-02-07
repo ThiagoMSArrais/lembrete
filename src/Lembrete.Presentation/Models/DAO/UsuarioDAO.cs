@@ -7,7 +7,7 @@ using System.Data.SqlClient;
 
 namespace Lembrete.Presentation.Models.DAO
 {
-    public class UsuarioDAO : IUsuarioDAO
+    public class UsuarioDAO
     {
 
         private readonly IConfiguration _configuration;
@@ -153,7 +153,7 @@ namespace Lembrete.Presentation.Models.DAO
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Dispose()");
         }
     }
 }

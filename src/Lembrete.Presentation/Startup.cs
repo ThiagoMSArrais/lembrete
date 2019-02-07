@@ -14,6 +14,8 @@ using Lembrete.Presentation.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Lembrete.Presentation.Controllers;
+using Lembrete.Presentation.Models.DAO.Interface;
+using Lembrete.Presentation.Models.DAO;
 
 namespace Lembrete.Presentation
 {
