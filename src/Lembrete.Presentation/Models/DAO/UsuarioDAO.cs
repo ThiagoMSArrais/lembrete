@@ -153,7 +153,6 @@ namespace Lembrete.Presentation.Models.DAO
 
         public void Dispose()
         {
-            Console.WriteLine("Dispose()");
         }
     }
 }
